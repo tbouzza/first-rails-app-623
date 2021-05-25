@@ -1,0 +1,32 @@
+<h1>About us</h1>
+
+<!-- Display the names of batch 623 Students -->
+
+<!-- How to send info to the controller -->
+<form action="/contact" method="get">
+  <input type="text" name="member" placeholder="Who are you looking for?">
+  <input type="submit">
+</form>
+
+
+
+<!-- This should be in the controller -->
+<%# students = [ 'Rana', 'Mady', 'Jude', 'Smida', 'Kai'] %>
+
+<ul>
+<% @students.each do |student| %>
+  <li><%= student.capitalize %></li>
+<% end %>
+</ul>
+
+
+
+<!--
+<ul>
+  <li>Kai</li>
+  <li>Smida</li>
+  <li>Jude</li>
+  <li>Rana</li>
+  <li>Mady</li>
+</ul>
+ -->

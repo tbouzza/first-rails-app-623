@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+CODING IN SILO:
 
-Things you may want to cover:
+[✅] A user can visit the about page
+--------------------------------------
+[X ] A user can visit the contact page
+--------------------------------------
+[  ] A user can visit the home page
 
-* Ruby version
+For each story (feature) ->
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  1. What is the *ROUTE*
+  2. Define the action in the *CONTROLLER*
+  3. Code the *VIEW*

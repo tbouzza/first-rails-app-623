@@ -10,6 +10,27 @@
   </head>
 
   <body>
+
+
+    <!-- Create a connection with the about page -->
+    <!-- <a href="/contact">Contact us</a> -->
+    <div class="navbar">
+      <h3>I am everywhere!</h3>
+
+      <ul>
+        <li><%= link_to('Home', root_path) %></li>
+        <!-- When you click on the link what happens ? -->
+        <!-- 1. sends a request to the server at the /home path  -->
+        <!-- 2. the router decides which controller is in charge -->
+        <!-- 3. the home action in the pages controller handles the request -->
+        <!-- 4. the controller returns the pages/home view -->
+
+        <li><%= link_to 'Contact us', contact_path %></li>
+        <li><%= link_to 'About us', about_path %></li>
+      </ul>
+    </div>
+
+
     <%= yield %>
   </body>
 </html>
